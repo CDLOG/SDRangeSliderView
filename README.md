@@ -16,6 +16,10 @@
 ## Using【使用】
 ```objc
 SDRangeSliderView* slider = [[SDRangeSliderView alloc] initWithFrame:CGRectMake(0, 0, 300, 0)];
+
+//一些相关的设置，之后必须执行更新才有效
+[slider update];
+
 [self.view addSubview:slider];
 //... ...
 //... ...
